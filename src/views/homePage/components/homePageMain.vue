@@ -29,7 +29,7 @@
 
 <style>
 .status-comment {
-    width: 283px;
+    width: 263px;
     height: 36px;
     display: flex;
     align-items: center;

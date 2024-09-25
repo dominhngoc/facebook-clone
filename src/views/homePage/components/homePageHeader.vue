@@ -1,5 +1,5 @@
 <template>
   <div>
-    <img src="/assets/images/Headline.png" alt="">
+    <img @click="$router.push('bookmarks')" src="/assets/images/Headline.png" alt="">
   </div>
 </template>
