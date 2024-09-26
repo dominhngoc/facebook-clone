@@ -4,7 +4,7 @@
         <div class="flex items-center space-x-2">
             <!-- Profile image -->
             <div class="relative">
-                <img class="w-12 h-12 rounded-full ml-1" src="/assets/images/avatar.jpg" alt="User Avatar">
+                <img @click="$router.push('/login')" class="w-12 h-12 rounded-full ml-1" src="/assets/images/avatar.jpg" alt="User Avatar">
                 <!-- Green online indicator -->
                 <span
                     class="absolute bottom-0 right-0 w-4 h-4 bg-green-500 border-2 border-white rounded-full"></span>
