@@ -1,7 +1,7 @@
 <template>
     <div class="h-screen bg-[rgba(240,242,245,1.0)] relative">
         <img @click="$router.push('/')" src="/assets/images/Login.jpg" alt="">
-        <div class="absolute top-[258px] z-10 w-full px-6 rounded-3xl  ">
+        <div class="absolute top-[203px] z-10 w-full px-6 rounded-3xl  ">
             <form>
         <!-- Floating placeholder for Phone or Email -->
         <div class="floating-placeholder-group">
