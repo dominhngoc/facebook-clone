@@ -7,7 +7,7 @@
             <img @click="$router.push('/')" src="/assets/images/headline-bookmark.png" alt="afs">
         </div>
        <div>
-        <div class="flex items-center justify-between space-x-4 rounded-lg p-4 mx-[15px] bg-white">
+        <div  @click="$router.push('/me')"  class="flex items-center justify-between space-x-4 rounded-lg p-4 mx-[15px] bg-white">
             <div class="flex items-center">
                 <!-- Profile Image -->
 
