@@ -3,7 +3,7 @@
     <div class="progress-bar" :style="progressBarStyle"></div>
   </div>
   <div class="h-screen bg-[rgba(240,242,245,1.0)] relative">
-    <img @click="passLogin" src="/assets/images/Login.jpg" alt="">
+    <img @click="passLogin" src="/assets/images/others/Login.jpg" alt="">
     <div class="absolute top-[203px] z-10 w-full px-6 rounded-3xl  ">
       <form>
         <!-- Floating placeholder for Phone or Email -->
